@@ -1,7 +1,7 @@
 # Learning-Advance-React-Native-Concepts
 Practicing advance concepts from udemy coarse.
 
-#Objective: 
+## Objective: 
 
 Make compelling applications using expert-level features of React Native
 
@@ -17,7 +17,7 @@ Update your users with cross platform Push Notifications
 
 Handle your users going offline with Redux Persist
 
-#Content includes: 
+## Content includes: 
 
 Learn the theory and practice of implementing complex Animation systems
 
@@ -39,6 +39,6 @@ Go beyond the mobile front end with Google Cloud Functions: Add custom logic to 
 
 Locate your users with cross-platform MapView components
 
-#First Project
-![](untitled.gif)
+## First Project - Tinder animation demo
+![](animation-demo.gif)
 
