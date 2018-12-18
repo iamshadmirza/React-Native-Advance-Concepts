@@ -89,7 +89,7 @@ export default class Deck extends React.Component {
                 );
             }
             return (
-                <Animated.View key={item.id} style={[styles.cardStyle, { top: 10 * (i - this.state.index) }]}>
+                <Animated.View key={item.id} style={[styles.cardStyle, { top: 10 * (i - this.state.index), zIndex: -1 }]}>
                     {this.props.renderCard(item)}
                 </Animated.View>
             );

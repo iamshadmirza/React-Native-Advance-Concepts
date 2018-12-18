@@ -1,9 +1,9 @@
 {
   "devToolsPort": 19002,
-  "expoServerPort": null,
-  "packagerPort": null,
-  "packagerPid": null,
-  "expoServerNgrokUrl": null,
-  "packagerNgrokUrl": null,
-  "ngrokPid": null
+  "expoServerPort": 19000,
+  "packagerPort": 19001,
+  "packagerPid": 3756,
+  "expoServerNgrokUrl": "https://pi-awz.anonymous.tinderanimation.exp.direct",
+  "packagerNgrokUrl": "https://packager.pi-awz.anonymous.tinderanimation.exp.direct",
+  "ngrokPid": 4424
 }
