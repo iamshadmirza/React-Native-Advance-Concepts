@@ -3,7 +3,7 @@
   "expoServerPort": null,
   "packagerPort": null,
   "packagerPid": null,
-  "expoServerNgrokUrl": null,
-  "packagerNgrokUrl": null,
-  "ngrokPid": null
+  "expoServerNgrokUrl": "https://hf-8bd.anonymous.otpwithtwilio.exp.direct",
+  "packagerNgrokUrl": "https://packager.hf-8bd.anonymous.otpwithtwilio.exp.direct",
+  "ngrokPid": 7112
 }
