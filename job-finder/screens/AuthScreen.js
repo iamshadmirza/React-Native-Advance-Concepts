@@ -9,7 +9,7 @@ class AuthScreen extends React.Component {
     }
     render() {
         return (
-            <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+            <View style={{ flex: 1, }}>
                 <Text>This is AuthScreen</Text>
             </View>
         );

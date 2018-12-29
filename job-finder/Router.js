@@ -21,6 +21,18 @@ const MainNavigator = createBottomTabNavigator({
             }
         })
     }
-});
+}, { lazy: true });
+
+WelcomeScreen.navigationOptions = ({ navigation }) => {
+    return {
+        tabBarVisible: false
+    }
+}
+AuthScreen.navigationOptions = ({ navigation }) => {
+    return {
+        tabBarVisible: false
+    }
+}
+
 
 export default createAppContainer(MainNavigator);
