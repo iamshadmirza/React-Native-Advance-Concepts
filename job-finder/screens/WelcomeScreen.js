@@ -3,6 +3,7 @@ import Slides from '../component/Slides';
 
 const SLIDE_DATA = [
     { text: 'Welcome to Job Finder!', color: '#03A9F4' },
+    { text: 'Slide Slide Slide', color: '#03A9F2' },
     { text: 'Set your location then swipe away', color: '#009688' }
 ];
 

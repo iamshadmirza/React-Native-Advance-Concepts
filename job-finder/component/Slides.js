@@ -9,6 +9,7 @@ class Slides extends React.Component {
             return (
                 <Button
                     title="Onwards!!"
+                    style={styles.button}
                     onPress={this.props.onComplete}
                 />
             );
@@ -37,7 +38,7 @@ class Slides extends React.Component {
 const styles = {
     text: {
         fontSize: 30,
-        color: 'white'
+        color: 'white',
     },
     slide: {
         flex: 1,
@@ -45,7 +46,11 @@ const styles = {
         width: SCREEN_WIDTH,
         justifyContent: 'center',
         alignItems: 'center'
+    },
+    button: {
+        backgroundColor: '#0288D1',
+        marginTop: 15
     }
-}
+};
 
 export default Slides;
