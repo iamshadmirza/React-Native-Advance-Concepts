@@ -19,7 +19,9 @@ const MainNavigator = createBottomTabNavigator({
                     settings: { screen: SettingsScreen }
                 })
             }
-        })
+        }, {
+                navigationOptions: { tabBarVisible: false }
+            })
     }
 }, { lazy: true });
 

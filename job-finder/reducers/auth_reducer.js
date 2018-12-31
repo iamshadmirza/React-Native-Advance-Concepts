@@ -6,7 +6,7 @@ const INITIAL_STATE = {
 export default function (state = INITIAL_STATE, action) {
     switch (action.type) {
         case FACEBOOK_LOGIN_SUCCESS:
-            return { token: action.payload };
+            return { ...state, token: action.payload };
         case FACEBOOK_LOGIN_FAIL:
             return { token: null };
         default:
