@@ -22,6 +22,14 @@
     "assetBundlePatterns": [
       "**/*"
     ],
+    "android": {
+      "package": "job-finder",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDTsIQpY_s3qJBW-5yCznGi1lLNzYpBUBM"
+        }
+      }
+    },
     "ios": {
       "supportsTablet": true
     }
