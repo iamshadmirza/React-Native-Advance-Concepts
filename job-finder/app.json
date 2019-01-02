@@ -26,7 +26,7 @@
       "package": "job-finder",
       "config": {
         "googleMaps": {
-          "apiKey": "AIzaSyDTsIQpY_s3qJBW-5yCznGi1lLNzYpBUBM"
+          "apiKey": "API_KEY_HERE"
         }
       }
     },
