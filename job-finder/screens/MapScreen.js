@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, View, ActivityIndicator, Button } from 'react-native';
+import { View, ActivityIndicator, Button } from 'react-native';
 import { MapView } from 'expo';
 import { connect } from 'react-redux';
 import * as actions from '../actions';
