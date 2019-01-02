@@ -1,6 +1,7 @@
 import React from 'react';
 import { Text, View, TouchableOpacity, Platform } from 'react-native';
 import { MaterialIcons } from '@expo/vector-icons';
+import { connect } from 'react-redux';
 
 class ReviewScreen extends React.Component {
     static navigationOptions = ({ navigation }) => ({
@@ -21,4 +22,8 @@ class ReviewScreen extends React.Component {
     }
 }
 
-export default ReviewScreen;
+function mapStateToProps(state) {
+    return { likedJobs: state.likedJobs };
+}
+
+export default connect(mapStateToProps, {})(ReviewScreen);

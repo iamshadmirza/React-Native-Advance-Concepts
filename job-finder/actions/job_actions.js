@@ -1,4 +1,4 @@
-import { FETCH_JOBS } from './types';
+import { FETCH_JOBS, LIKE_JOB } from './types';
 import reverseGeocode from 'latlng-to-zip';
 import qs from 'qs';
 import axios from 'axios';
@@ -17,7 +17,7 @@ const buildJobsUrl = (zip) => {
     return `${JOB_ROOT_URL}${query}`;
 }
 
-export const fetchJobs = (region) => async (dispatch) => {
+export const fetchJobs = (region, callback) => async (dispatch) => {
     try {
         let zip = await reverseGeocode(region);
         const url = buildJobsUrl(zip);
@@ -26,8 +26,14 @@ export const fetchJobs = (region) => async (dispatch) => {
             type: FETCH_JOBS,
             payload: data
         });
-        console.log('DATA', data);
+        callback();
     } catch (error) {
         console.error('ERROR', error);
     }
-}
+};
+export const likeJob = (job) => {
+    return {
+        type: LIKE_JOB,
+        payload: job
+    };
+};
