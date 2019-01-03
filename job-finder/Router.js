@@ -20,7 +20,9 @@ const MainNavigator = createBottomTabNavigator({
                 })
             }
         }, {
-                navigationOptions: { tabBarVisible: false }
+                tabBarOptions: {
+                    labelStyle: { fontSize: 12 }
+                }
             })
     }
 }, { lazy: true });

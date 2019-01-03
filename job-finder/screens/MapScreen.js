@@ -1,10 +1,19 @@
 import React from 'react';
-import { View, ActivityIndicator, Button } from 'react-native';
+import { View, ActivityIndicator } from 'react-native';
 import { MapView } from 'expo';
+import { Button, Icon } from 'react-native-elements';
 import { connect } from 'react-redux';
 import * as actions from '../actions';
 
 class MapScreen extends React.Component {
+    static navigationOptions = {
+        title: 'Map',
+        tabBar: {
+            icon: ({ tintColor }) => {
+                return <Icon name='my-location' size={30} color={tintColor} />;
+            }
+        }
+    }
     state = {
         region: {
             latitude: 37,
