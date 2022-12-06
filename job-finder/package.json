@@ -10,7 +10,7 @@
     "expo": "^31.0.2",
     "latlng-to-zip": "0.0.1",
     "lodash": "^4.17.11",
-    "qs": "^6.6.0",
+    "qs": "^6.6.1",
     "react": "16.5.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-31.0.0.tar.gz",
     "react-native-elements": "^0.19.1",
